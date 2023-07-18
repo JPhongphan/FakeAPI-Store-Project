@@ -79,7 +79,7 @@ export default {
     },
     methods: {
     sendEmail() {
-      const mailtoLink = `mailto:your-email@example.com?subject=Contact Form Submission&body=${encodeURIComponent(
+      const mailtoLink = `mailto:phongphan.prm@gmail.com?subject=Contact Form Submission&body=${encodeURIComponent(
         `Email: ${this.email}\nName: ${this.name}\nMessage: ${this.message}`
       )}`;
       window.location.href = mailtoLink;
